@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.first {
+  border-left: 2px solid green;
+  margin-left: 50%;
+  width: 2px;
+  height: 50px;
+}
+
+.second {
+  border-left: 4px solid green;
+  margin-left: 50%;
+  width: 4px;
+  height: 50px;
+}
+
+.third {
+  border-left: 6px solid green;
+  margin-left: 50%;
+  width: 6px;
+  height: 50px;
+}
+
+.previous > .rank {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.next > .rank {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.current {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: yellow;
+}
